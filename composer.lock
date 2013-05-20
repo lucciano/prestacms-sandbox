@@ -1,5 +1,9 @@
 {
-    "hash": "9ed8a97615af4f0825d5bd512fccc4ff",
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "89ea3ee67a5d0f00a52b965aa35aa808",
     "packages": [
         {
             "name": "doctrine/common",
@@ -576,7 +580,7 @@
             "time": "2013-01-14 18:53:13"
         },
         {
-            "name": "imagine/Imagine",
+            "name": "imagine/imagine",
             "version": "dev-master",
             "source": {
                 "type": "git",
@@ -1110,12 +1114,12 @@
             "version": "1.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "http://github.com/KnpLabs/KnpMenu.git",
+                "url": "https://github.com/KnpLabs/KnpMenu.git",
                 "reference": "v1.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/KnpLabs/KnpMenu/archive/v1.1.2.zip",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/v1.1.2",
                 "reference": "v1.1.2",
                 "shasum": ""
             },
@@ -1153,7 +1157,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -1609,7 +1613,7 @@
                 "prestaconcept",
                 "symfony-cmf"
             ],
-            "time": "2013-03-12 15:42:16"
+            "time": "2013-03-22 08:52:51"
         },
         {
             "name": "presta/cms-media-bundle",
@@ -1660,7 +1664,7 @@
                 "prestaconcept",
                 "symfony-cmf"
             ],
-            "time": "2013-03-07 15:48:38"
+            "time": "2013-03-14 09:46:44"
         },
         {
             "name": "presta/cms-theme-basic-bundle",
@@ -1711,7 +1715,63 @@
                 "prestaconcept",
                 "symfony-cmf"
             ],
-            "time": "2013-03-08 15:23:33"
+            "time": "2013-03-18 15:50:34"
+        },
+        {
+            "name": "presta/sitemap-bundle",
+            "version": "dev-master",
+            "target-dir": "Presta/SitemapBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prestaconcept/PrestaSitemapBundle.git",
+                "reference": "b5ae19a3a169d68810b4d34d28b5fd0e353c0d75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaSitemapBundle/zipball/b5ae19a3a169d68810b4d34d28b5fd0e353c0d75",
+                "reference": "b5ae19a3a169d68810b4d34d28b5fd0e353c0d75",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/symfony": ">=2.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*@stable"
+            },
+            "suggest": {
+                "liip/doctrine-cache-bundle": "Allows to store sitemaps in cache"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Presta\\SitemapBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Epely",
+                    "homepage": "http://www.prestaconcept.net/"
+                }
+            ],
+            "description": "A symfony 2 bundle that provides tools to build your application sitemap.",
+            "keywords": [
+                "Sitemap",
+                "Symfony2",
+                "bundle",
+                "prestaconcept",
+                "xml"
+            ],
+            "time": "2013-05-20 10:37:59"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -3457,7 +3517,8 @@
         "presta/cms-media-bundle": 20,
         "presta/cms-theme-basic-bundle": 20,
         "leafo/lessphp": 20,
-        "stfalcon/tinymce-bundle": 20
+        "stfalcon/tinymce-bundle": 20,
+        "presta/sitemap-bundle": 20
     },
     "platform": {
         "php": ">=5.3.3"

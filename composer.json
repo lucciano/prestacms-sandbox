@@ -41,7 +41,7 @@
 
         "leafo/lessphp":"0.3.*@dev",
         "stfalcon/tinymce-bundle":"dev-master",
-        "presta/sitemap-bundle": "*@stable"
+        "presta/sitemap-bundle": "1.2.*@dev"
     },
     "scripts":{
         "post-install-cmd":[
