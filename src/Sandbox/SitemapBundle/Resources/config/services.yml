@@ -1,0 +1,8 @@
+parameters:
+    
+    
+services:
+    sandbox.listener.presta_sitemap:
+        class: Sandbox\SitemapBundle\EventListener\PrestaSitemapListener
+        arguments: [@router, @presta_cms.website_manager, @presta_cms.route_manager]
+        tags: [ {name: "presta.sitemap.listener"} ]

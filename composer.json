@@ -40,7 +40,8 @@
         "presta/cms-theme-basic-bundle":"dev-master",
 
         "leafo/lessphp":"0.3.*@dev",
-        "stfalcon/tinymce-bundle":"dev-master"
+        "stfalcon/tinymce-bundle":"dev-master",
+        "presta/sitemap-bundle": "*@stable"
     },
     "scripts":{
         "post-install-cmd":[
