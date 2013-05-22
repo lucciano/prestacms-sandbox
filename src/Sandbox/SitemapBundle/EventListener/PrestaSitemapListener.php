@@ -11,6 +11,7 @@ namespace Sandbox\SitemapBundle\EventListener;
 
 use Symfony\Component\Routing\RouterInterface;
 use Symfony\Cmf\Bundle\RoutingExtraBundle\Document\Route; //depecrated in next cmf
+use Symfony\Cmf\Bundle\RoutingExtraBundle\Document\RedirectRoute;
 
 use Presta\SitemapBundle\Sitemap\Url\GoogleImage;
 use Presta\SitemapBundle\Sitemap\Url\GoogleImageUrlDecorator;
@@ -48,6 +49,9 @@ class PrestaSitemapListener implements SitemapListenerInterface
         $routeCollection = $this->container->get('presta_cms.route_manager')->findRoutesByWebsite($this->getWebsite());
 
         foreach ($routeCollection->all() as $route) {
+            if ($route instanceof RedirectRoute) {
+                continue;
+            }
             //add homepage url to the urlset named default
             $event->getGenerator()->addUrl(
                 $this->getSitemapUrlFrom($route),
