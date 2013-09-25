@@ -14,3 +14,6 @@ app.sqlite
 web/uploads/media/*
 /nbproject
 vagrant/.vagrant
+vagrant/vagrantForWindows/.vagrant
+index.html
+

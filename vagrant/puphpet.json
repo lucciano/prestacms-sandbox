@@ -3,7 +3,7 @@
         "type": "local",
         "os": "ubuntu",
         "local": {
-            "url": "http:\/\/files.vagrantup.com\/precise34.box",
+            "url": "http:\/\/files.vagrantup.com\/precise32.box",
             "name": "precise32",
             "personal_name": "sandbox.prestacms",
             "ip": "172.22.22.23",
