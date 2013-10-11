@@ -4,3 +4,6 @@
 [submodule "vagrant/modules/puppi"]
 	path = vagrant/modules/puppi
 	url = https://github.com/example42/puppi.git
+[submodule "vagrant/modules/apache"]
+	path = vagrant/modules/apache
+	url = https://github.com/puphpet/puppet-apache.git
