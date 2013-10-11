@@ -13,3 +13,6 @@
 [submodule "vagrant/modules/composer"]
 	path = vagrant/modules/composer
 	url = https://github.com/vagrantee/puppet-composer.git
+[submodule "vagrant/modules/mysql"]
+	path = vagrant/modules/mysql
+	url = https://github.com/puppetlabs/puppetlabs-mysql.git
