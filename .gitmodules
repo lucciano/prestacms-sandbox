@@ -10,3 +10,6 @@
 [submodule "vagrant/modules/apt"]
 	path = vagrant/modules/apt
 	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "vagrant/modules/composer"]
+	path = vagrant/modules/composer
+	url = https://github.com/vagrantee/puppet-composer.git
