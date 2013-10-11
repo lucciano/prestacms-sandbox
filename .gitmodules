@@ -1,0 +1,3 @@
+[submodule "vagrant/modules/stdlib"]
+	path = vagrant/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
