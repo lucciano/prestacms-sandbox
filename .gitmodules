@@ -19,3 +19,6 @@
 [submodule "vagrant/modules/php"]
 	path = vagrant/modules/php
 	url = https://github.com/example42/puppet-php.git
+[submodule "vagrant/modules/puphpet"]
+	path = vagrant/modules/puphpet
+	url = https://github.com/puphpet/puppet-puphpet.git
