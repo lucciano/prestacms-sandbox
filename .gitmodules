@@ -22,3 +22,6 @@
 [submodule "vagrant/modules/puphpet"]
 	path = vagrant/modules/puphpet
 	url = https://github.com/puphpet/puppet-puphpet.git
+[submodule "vagrant/modules/xdebug"]
+	path = vagrant/modules/xdebug
+	url = https://github.com/puphpet/puphpet-xdebug.git
