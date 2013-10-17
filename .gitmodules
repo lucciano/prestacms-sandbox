@@ -25,3 +25,6 @@
 [submodule "vagrant/modules/xdebug"]
 	path = vagrant/modules/xdebug
 	url = https://github.com/puphpet/puphpet-xdebug.git
+[submodule "vagrant/modules/phpmyadmin"]
+	path = vagrant/modules/phpmyadmin
+	url = https://github.com/frastel/puppet-phpmyadmin.git
