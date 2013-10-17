@@ -28,3 +28,6 @@
 [submodule "vagrant/modules/phpmyadmin"]
 	path = vagrant/modules/phpmyadmin
 	url = https://github.com/frastel/puppet-phpmyadmin.git
+[submodule "vagrant/modules/vcsrepo"]
+	path = vagrant/modules/vcsrepo
+	url = https://github.com/puppetlabs/puppetlabs-vcsrepo.git
